@@ -30,7 +30,6 @@
 }
 .container footer.footer {
     margin: 0;
-    border-top: 1px solid black;
 }
 
 .container footer.footer nav.flex {
@@ -38,6 +37,7 @@
     align-items: center;
     justify-content: flex-start;
     background: black;
+    border: 1px solid black;
 }
 
 .container footer.footer nav.flex a:hover {
@@ -49,6 +49,10 @@
     color: white;
     padding: 12px 30px;
 }
+.container footer.footer p {
+    margin: 20px 0 0;
+    text-align: center;
+}
 
 .container section.main-content {
     margin: 20px 0;
@@ -56,4 +60,17 @@
 
 .container section.main-content p {
     padding: 10px 0;
+}
+
+.container section.main-content section.main-bottom-content {
+    display: flex;
+    margin: 10px 0 0 0;
+}
+
+.container section.main-content section.main-bottom-content p {
+    padding: 0 20px 0 0;
+}
+
+h2 {
+    font-size: 24px;
 }
