@@ -74,3 +74,16 @@
 h2 {
     font-size: 24px;
 }
+
+.container header.flex div.logo:hover{
+    background: black;
+}
+
+@media(max-width: 800px){
+    .container {
+        width: 400px;
+    }
+    a#Home {
+        display: none;
+    }
+}
